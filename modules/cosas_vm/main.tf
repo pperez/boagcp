@@ -13,7 +13,7 @@
 # limitations under the License.
 
 data "google_compute_image" "vmimage" {
-  family  = "ubuntu-minimal-2004"
+  family  = "ubuntu-minimal-2004-lts"
   project = "ubuntu-os-cloud"
 }
 
